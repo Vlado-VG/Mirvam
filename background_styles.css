@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway;
+}
+
+html {
+    background-image: url("content/background_hands.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
