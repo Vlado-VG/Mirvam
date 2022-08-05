@@ -100,23 +100,24 @@ body {
 
 /* BODY - TITLE AND WELCOME */
 .welcome{
-    margin: 7rem 6rem;
+    padding: 6rem;
 }
  .large_title {
     color:white;
     text-align:justify;
     line-height: 0.8;
     font-size: 5rem;
+    margin-top: 0;
 }
 .welcome_message{
     color:white;
     text-align:justify;
     font-size: 2rem;
+    margin-bottom: 3rem;
 }
 .welcome_underline{
 width: 10rem;
 }
-
 .big_square{
   width: calc(100% / 2);
   float: left;
@@ -132,7 +133,7 @@ width: 10rem;
   .big_square.content{
     width: calc(100% - 16px);
     height: calc(100% - 16px);
-    margin: 8px;
+    margin: 1px;
     padding: 16px;
     position: absolute;
     color: white;
@@ -142,7 +143,7 @@ width: 10rem;
     .small_square.content{
     width: calc(100% - 16px);
     height: calc(100% - 16px);
-    margin: 8px;
+    margin: 1px;
     padding: 16px;
     position: absolute;
     color: white;

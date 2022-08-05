@@ -4,9 +4,17 @@
     font-family: Raleway;
 }
 
-html {
+.welcome_image {
     background-image: url("content/background_hands.webp");
     background-repeat: no-repeat;
     background-size: cover;
-
+    padding: 0;
+    border: 0;
+    margin:0;
+}
+.background_image{
+    background-image: url("content/forest.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
