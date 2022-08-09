@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome_image {
+    background-image: url("../../assets/images/background_hands.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    border: 0;
+    margin:0;
+}
+.background_image{
+    background-image: url("../../assets/images/forest.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* BODY - TITLE AND WELCOME */
+.welcome{
+    padding: 6rem;
+}
+ .large_title {
+    color:white;
+    text-align:justify;
+    line-height: 0.8;
+    font-size: 5rem;
+    margin-top: 0;
+}
+.welcome_message{
+    color:white;
+    text-align:justify;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.welcome_underline{
+width: 10rem;
+}
+.big_square{
+  width: calc(100% / 2);
+  float: left;
+  position: relative;
+  padding-bottom: calc(100% / 3);
+}
+.small_square{
+    width: calc(100% / 3);
+    float: left;
+    position: relative;
+    padding-bottom: calc(100% / 5);
+  }
+  .big_square.content{
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    margin: 1px;
+    padding: 16px;
+    position: absolute;
+    color: white;
+    background-color: #0095ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+    .small_square.content{
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    margin: 1px;
+    padding: 16px;
+    position: absolute;
+    color: white;
+    background-color: #7c0c73;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+@media (max-width: 800px)
+{
+    .large_title{
+        font-size: 28px;
+    }
+    .welcome_message{
+        font-size: 14px;
+    }
+    .welcome_underline{
+        width: 6rem;
+        }
+}
