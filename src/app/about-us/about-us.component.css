@@ -1,0 +1,71 @@
+.background_image {
+    background-image: url("../../assets/images/forest.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.presentation_container {
+    display: block;
+    margin: 20 auto;
+}
+
+#descriptive-text {
+    color: rgb(160, 160, 160);
+
+    padding: 10%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-gallery>li {
+    flex-basis: 350px;
+    /* width: 350px; */
+}
+
+.image-gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.Title {
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5%;
+}
+
+@media (max-width: 800px) {
+    .image-gallery li img {
+        width: 80%;
+        height: auto;
+        vertical-align: left;
+
+    }
+
+    .Title {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+#PastorName {
+    color: white;
+    font-size: 25px;
+    margin: 3%;
+
+}
