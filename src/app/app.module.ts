@@ -7,12 +7,14 @@ import { NavbarComponent } from './navigation_component/navbar.component';
 import { HomeComponent } from './home_component/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { LessonsComponent } from './lessons/lessons.component';
+import { EpisodeComponent } from './episode/episode.component';
+import { VideoPageComponent } from './video-page/video-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent, 
-    NavbarComponent, HomeComponent, AboutUsComponent, LessonsComponent
+    NavbarComponent, HomeComponent, AboutUsComponent, LessonsComponent, EpisodeComponent, VideoPageComponent
   ],
   imports: [
     BrowserModule,
