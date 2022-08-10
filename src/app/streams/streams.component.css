@@ -1,0 +1,13 @@
+.video_stream{
+    aspect-ratio: 16 / 9;
+    width: 85%;
+    height: auto;
+    padding: 0 5%;
+}
+.video_stream_container{
+    background-image: url(../../assets/images/video_lessons_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-x: center;
+    padding: 10% 0% 30% 10%;
+}
