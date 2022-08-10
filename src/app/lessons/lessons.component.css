@@ -1,0 +1,12 @@
+.video_container{
+    background-image: url(../../assets/images/video_stream_wallpaper.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position-x: center;
+  }
+.video {
+    aspect-ratio: 16 / 9;
+    width: 70%;
+    height: auto;
+    padding: 0 15%;
+  }
