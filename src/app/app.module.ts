@@ -9,6 +9,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { LessonsComponent } from './lessons/lessons.component';
 import { StreamsComponent } from './streams/streams.component';
 import { ArticlesComponent } from './articles/articles.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -21,7 +22,7 @@ import { ArticlesComponent } from './articles/articles.component';
     AboutUsComponent, 
     LessonsComponent, 
     StreamsComponent, 
-    ArticlesComponent
+    ArticlesComponent, FooterComponent
   ],
 
   imports: [
