@@ -10,7 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 1. Install the latest stable Node.js
 2. Install the Angular CLI (minimum version required is 14.1.1.)
-3. Run npm install.
+3. Run `npm install` or `ng install`.
 4. Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 5. Run `ng serve` to launch dev server.
 
