@@ -1,8 +1,6 @@
-.background_image {
-    background-image: url("../../assets/images/forest.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
+.background {
+    background-color: #f8cc80;
+    padding-bottom: 7rem;
     border: 0;
     margin: 0;
 }
@@ -10,6 +8,10 @@
 .presentation_container {
     display: block;
     margin: 20 auto;
+}
+
+ul {
+    list-style-type: none;
 }
 
 #descriptive-text {
