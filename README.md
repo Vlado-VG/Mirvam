@@ -1,6 +1,9 @@
 # Mirvam
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.8.
+@angular-devkit/build-angular version 16.0.0
+@angular-devkit/core          version 16.0.0
+@angular-devkit/schematics    version 15.2.8
 
 ## Development server
 
@@ -9,7 +12,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## How to Build
 
 1. Install the latest stable Node.js
-2. Install the Angular CLI (minimum version required is 14.1.1.)
+2. Install the Angular CLI (minimum version required is 15.2.8.)
 3. Run `npm install` or `ng install`.
 4. Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 5. Run `ng serve` to launch dev server.
